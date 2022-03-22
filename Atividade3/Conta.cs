@@ -24,12 +24,11 @@ namespace Atividade3
 
         public int Numero { get; set; }
         public String Titular { get; set; }
-        
         public double Saldo { get; set; }
         
         public void Rendimento()
         {
-            Console.WriteLine($"\n\nrendimento: {Saldo}");
+            Console.WriteLine($"rendimento: {Saldo}");
         }
     }
 }

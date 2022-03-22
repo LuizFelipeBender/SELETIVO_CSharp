@@ -12,12 +12,10 @@ namespace Atividade3
         {
             this.ValorCorrente = 0;
         }
-
         public ContaCorrente(int numero, String titular, double saldo, double valorCorrente) : base(numero, titular, saldo)
         {
             this.ValorCorrente = valorCorrente;
         }
-
         public double ValorCorrente { get; set; }
 
         public void RendimentoCorrente(Conta c)

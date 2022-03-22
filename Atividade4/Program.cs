@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Atividade3;
+using System;
 
-namespace Atividade3
+namespace Atividade4
 {
     internal class Program
     {
@@ -21,7 +22,9 @@ namespace Atividade3
             c.Rendimento();
             cc.RendimentoCorrente(c);
             cp.RendimentoPoupanca(c);
-            Console.ReadKey();
+            Imposto im = new Imposto();
+            im.EscreveImposto();
+
         }
     }
 }

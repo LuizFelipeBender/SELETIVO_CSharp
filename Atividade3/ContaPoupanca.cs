@@ -18,12 +18,12 @@ namespace Atividade3
             this.ValorPoupanca = valorPoupanca;
         }
         public double ValorPoupanca { get; set; }
-  
+
         public void RendimentoPoupanca(Conta c)
         {
             this.ValorPoupanca = (c.Saldo * 0.05);
 
-            Console.WriteLine($"Rendimento conta poupança:{ValorPoupanca}");
+            Console.WriteLine($"Rendimento conta poupança: {ValorPoupanca}");
         }
     }
 }
